@@ -10,22 +10,22 @@ Import the necessary libraries and load the csv files. First combine all the csv
 
 ## STEP 2: Data Exploration
 I explored the data with the following functions:
-- .head(): 
-- shape:
-- Columns attribute:
-- describe():
-- Missing values:
-- info:
+- .head( ): Shows the first few lines of the table so as to have an idea of what the data looks like
+- shape: Shows the number of rows and columns in the data frame
+- Columns attribute: lists the names of the columns
+- describe( ): Gives a statistical summary of all the colums in a data frame
+- Missing values: Using isnull( ) shows that there arent any missing values
+- info: gives information about total column number, column name, dtype, total number of rows
 
 ## STEP 3
-- to_datetime() attribute is to convert the date column to datetime dtype.
+- to_datetime( ) attribute is to convert the date column to datetime dtype.
 - Confirm if the dtype is datetime.
 - Converstion of the time column to the appropriate dtype.
 - Accurate extraction of Day, Month, Year and Hour features from the date and time columns.
 - The unique hours of sales in the supermarket should be accurately determined and the result should be in an array form.
 
 ## STEP 4
-- Unique count of the categorical columns using value_counts()
+- Unique count of the categorical columns using value_counts( )
 
 ## STEP 5
 - A groupby function with the 'city' column and aggrevation of sum & mean
