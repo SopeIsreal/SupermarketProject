@@ -37,3 +37,9 @@ I explored the data with the following functions:
 - Countplot - Most used payment method and city with most sales
 - Countplot - Highest and lowest sold product line
 - Chart should show the product line column on Y - axis and the line parameter for the paymemt column
+
+## INSIGHTS
+Interpretation of values
+- Mean: The average unit price across all the stores is N20,041.96 (this is exclusive of tax), while the average quantity sold is approximately 6 units (5.51 units). A   sum of N5,536.57 is the average amount paid as 5% tax fee for customer buying. The average total price of goods i.e. including tax is N116,268.03. The average amount   of cost of goods sold spread across the three stores is N110,731.45. The average gross margin percentafe is 4.76%, while the average gross income is N5,536.57.         Customers gave an average satisfaction rating 6.9% across all three stores
+- Std (Standard deviation): The standard deviation tells us how far apart other figures are in relation to the mean. A high standard deviation means that the figures     are spread out while a low standard deviation means that figures in the data are clustered around the mean. In relation to the unit price, the standard deviation is   high at N9, 538.06 while the mean is at N20,041.96. The standard deviation of the quantity is not too high at 2 units in comparison to the mean at 5 units. The         standard deviation of the tax is low in comparison with the mean. They are closely clustered together. The standard deviaton of the total price of food N88,518.72     which includes tax in its summation, is high when compared to the mean of N116,268.03.
+- Min: The minimum price per unit of goods sold across the three stores is N3,628.80. While the minimum quantity sold is 1 unit. The minimum amount of tax paid is       N183.06. The minimum cost of goods sold is N3,661.20.
